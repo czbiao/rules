@@ -1,0 +1,61 @@
+<!--specialExercises.wxml-->
+<!--专题练习页面,可以选择试题难度等信息,-->
+<view class="container">
+  <view class="time-area">
+    <text class="used-time">已用:{{hour}}:{{minute}}:{{second}}</text>
+    <text class="progress">进度:{{index+1}}/{{size}}</text>
+  </view>
+  <view class="title-area">
+    <text class="title-name">({{titlesStr[titleType]}}){{title.name}}({{title.score}}分)</text>
+    
+    <!--选择题区域  -->
+    <view hidden="{{titleType!=0}}" class="option-group">
+      <view id="1" class="option-item" bindtap="doSelect">
+        <image src="{{answer[index]==1?'../../images/aPressed.png':'../../images/aNormal.png'}}" class="icon"></image>
+        <text class="option-text">{{title.options[0].content}}</text>
+      </view>
+      <view id="2" class="option-item" bindtap="doSelect">
+        <image src="{{answer[index]==2?'../../images/bPressed.png':'../../images/bNormal.png'}}" class="icon"></image>
+        <text class="option-text">{{title.options[1].content}}</text>
+      </view>
+      <view id="3" class="option-item" bindtap="doSelect">
+        <image src="{{answer[index]==3?'../../images/cPressed.png':'../../images/cNormal.png'}}" class="icon"></image>
+        <text class="option-text">{{title.options[2].content}}</text>
+      </view>
+      <view id="4" class="option-item" bindtap="doSelect">
+        <image src="{{answer[index]==4?'../../images/dPressed.png':'../../images/dNormal.png'}}" class="icon"></image>
+        <text class="option-text">{{title.options[3].content}}</text>
+      </view>
+    </view>
+
+    <!--填空题答案区域  -->
+    <view wx:for="{{fillsCount[index]}}" wx:key="blankId" hidden="{{titleType!=1}}" class="blank-group">
+      <view class="blank-item">
+        <text class="blank-text">填空{{item.blankIdx}}</text>
+        <input class="blank-input" id="fill_{{item.blankId}}" value="{{answer[item.row][item.col]}}" placeholder="请输入第{{item.blankIdx}}个填空的答案" type="text" bindconfirm="storeFillAnswer" bindblur="storeFillAnswer"/>
+      </view>
+      <!-- <template is="blank-item" data="{{...item}}"></template> -->
+    </view>
+
+    <!--简答题答案  -->
+    <view hidden="{{titleType!=3&&titleType!=4&&titleType!=5}}" class="question-group">
+      <view class="question-item">
+        <textarea class="question-input" id="question_{{index}}" value="{{answer[index]}}" placeholder="请输入问答题答案" maxlength="800" type="text" bindconfirm="storeQuestionAnswer" bindblur="storeQuestionAnswer"/>
+      </view>
+    </view>
+
+    <!--圆形控制按钮  -->
+    <view hidden="{{titleType==0}}" class="circle-action">
+      <view class="circle-btn " bindtap="answerAction" hover-class="circle-btn-hover" hover-start-time="20" hover-stay-time="70">{{answerActionStr}}</view>
+    </view>
+    <!--正确答案区域  -->
+    <view class="correct-answer" hidden="{{!isShowAnswer}}">
+      <text class="correct-text">正确答案:</text>
+      <text class="answer-text">{{title.answer}}</text>
+    </view>
+  </view>
+  <view class="control-area">
+    <view class="btn-prev" hover-class="btn-hover" hover-start-time="20" hover-stay-time="70" bindtap="doPrevTitle">{{prevBtnText}}</view>
+    <view class="btn-next" hover-class="btn-hover" hover-start-time="20" hover-stay-time="70" bindtap="doNextTitle">{{nextBtnText}}</view>
+  </view>
+</view>

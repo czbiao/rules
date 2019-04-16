@@ -1,0 +1,56 @@
+{
+  "pages": [
+    "pages/learn/learn",
+    "pages/logs/logs",
+    "pages/test/test",
+    "pages/contest/contest",
+    "pages/mine/mine",
+    "pages/punchClock/punchClock",
+    "pages/read/read",
+    "pages/exercisePage/exercisePage",
+    "pages/specialExercises/specialExercises",
+    "pages/editAccount/editAccount",
+    "pages/examPage/examPage",
+    "pages/contestPage/contestPage",
+    "pages/practiceResult/practiceResult",
+    "pages/login/login",
+    "pages/testGrade/testGrade",
+    "pages/noticeDetail/noticeDetail"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#95888B",
+    "selectedColor": "#4285F4",
+    "list": [
+      {
+        "pagePath": "pages/learn/learn",
+        "text": "学习",
+        "iconPath": "images/learnNormal.png",
+        "selectedIconPath": "images/learnPressed.png"
+      },
+      {
+        "pagePath": "pages/test/test",
+        "text": "考试",
+        "iconPath": "images/testNormal.png",
+        "selectedIconPath": "images/testPressed.png"
+      },
+      {
+        "pagePath": "pages/contest/contest",
+        "text": "竞赛",
+        "iconPath": "images/contestNormal.png",
+        "selectedIconPath": "images/contestPressed.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "个人中心",
+        "iconPath": "images/mineNormal.png",
+        "selectedIconPath": "images/minePressed.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+<!--test.wxml-->
+<view class="container">
+  <view class="test-funcs">
+    <view class="test-container">
+      <view class="test-info">
+        <view class="info-title">
+          <text class="text-title">{{testInfo.name}}</text>
+        </view>
+        <view class="info-item">
+          <text class="key-text">开始日期:</text>
+          <text class="value-text">{{testInfo.startTime}}</text>
+        </view>
+        <view class="info-item">
+          <text class="key-text">截止日期:</text>
+          <text class="value-text">{{testInfo.endTime}}</text>
+        </view>
+        <view class="info-item">
+          <text class="key-text">考试时长:</text>
+          <text class="value-text">{{testInfo.duration}}分钟</text>
+        </view>
+        <view class="info-item">
+          <text class="key-text">适用范围:</text>
+          <text class="value-text">所有{{testInfo.grade}}级本科生</text>
+        </view>
+        <view class="info-action">
+          <view class="{{clickable?'btn-small':'btn-disabled'}}" hover-class="btn-hover" hover-start-time="20" hover-stay-time="70" bindtap="doExam">{{btnText}}</view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

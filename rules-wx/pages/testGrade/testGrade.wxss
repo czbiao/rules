@@ -1,0 +1,6 @@
+/* testGrade.wxss */
+@import "../../utils/card.wxss";
+.test-funcs {
+  width: 100%;
+  margin: 36rpx 0;
+}
