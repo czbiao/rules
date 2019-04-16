@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <!--配置连接数据库的基本操作-->
+        <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property name="hibernate.connection.url">
+            <!--<![CDATA[jdbc:mysql://localhost:3306/saverulessystem?useUnicode=true&characterEncoding=utf8]]>-->
+            <![CDATA[jdbc:mysql://localhost:3306/schoolrulessystem?useUnicode=true&characterEncoding=utf8]]>
+        </property>
+        <property name="hibernate.connection.username">root</property>
+        <property name="hibernate.connection.password">123456</property>
+        <!--配置基本信息-->
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQL5Dialect</property>
+        <property name="show_sql">true</property>
+        <property name="format_sql">true</property>
+        <!--配置连接池-->
+        <property name="hibernate.c3p0.min_size">5</property>
+        <property name="hibernate.c3p0.max_size">50</property>
+        <property name="hibernate.c3p0.timeout">300</property>
+        <property name="hibernate.c3p0.max_statements">50</property>
+        <property name="hibernate.c3p0.acquire_increment">5</property>
+        <property name="hibernate.c3p0.idle_test_period">3000</property>
+        <!--指定自动生成数据表的策略-->
+        <!--<property name="hbm2ddl.auto">update</property>-->
+
+
+        <mapping class="com.hstc.rules.domain.Account"/>
+        <mapping class="com.hstc.rules.domain.Signon"/>
+        <mapping class="com.hstc.rules.domain.Integral"/>
+        <mapping class="com.hstc.rules.domain.Admin"/>
+        <mapping class="com.hstc.rules.domain.Wrongtitle"/>
+        <mapping class="com.hstc.rules.domain.Option"/>
+        <mapping class="com.hstc.rules.domain.Title"/>
+        <mapping class="com.hstc.rules.domain.Titlediff"/>
+        <mapping class="com.hstc.rules.domain.Contestregistion"/>
+        <mapping class="com.hstc.rules.domain.Testinfo"/>
+        <mapping class="com.hstc.rules.domain.Testrecord"/>
+        <mapping class="com.hstc.rules.domain.Clockin"/>
+        <mapping class="com.hstc.rules.domain.Notice"/>
+        <mapping class="com.hstc.rules.domain.Contesttitle"/>
+        <mapping class="com.hstc.rules.domain.Testtitle"/>
+        <mapping class="com.hstc.rules.domain.Feedback"/>
+        <mapping class="com.hstc.rules.domain.College"/>
+        <mapping class="com.hstc.rules.domain.Major"/>
+        <mapping class="com.hstc.rules.domain.Clazz"/>
+        <mapping class="com.hstc.rules.domain.Additiontitle"/>
+        <mapping class="com.hstc.rules.domain.Paperrecord"/>
+    </session-factory>
+</hibernate-configuration>
