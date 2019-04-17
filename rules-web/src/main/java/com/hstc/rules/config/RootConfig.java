@@ -6,7 +6,7 @@ import org.springframework.context.annotation.FilterType;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 
 /**
- * Created by linjingshan on 17-6-2.
+ * Created by linjingshan on 18-6-2.
  */
 @Configuration
 @ComponentScan(basePackages = {"com.hstc.rules"},

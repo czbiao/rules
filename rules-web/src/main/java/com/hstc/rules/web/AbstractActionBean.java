@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.ResponseStatus;
 
 /**
- * Created by linjingshan on 17-5-30.
+ * Created by linjingshan on 18-5-30.
  */
 public abstract class AbstractActionBean {
     @ExceptionHandler(CatchServiceException.class)

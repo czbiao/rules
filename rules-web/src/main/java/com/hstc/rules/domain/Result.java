@@ -1,7 +1,7 @@
 package com.hstc.rules.domain;
 
 /**
- * Created by linjingshan on 17-6-12.
+ * Created by linjingshan on 18-6-12.
  */
 public class Result {
 

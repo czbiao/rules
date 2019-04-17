@@ -7,7 +7,7 @@ import com.hstc.rules.exception.AccountServiceException;
 import java.util.List;
 
 /**
- * Created by linjingshan on 17-5-30.
+ * Created by linjingshan on 18-5-30.
  */
 public interface AccountService {
 

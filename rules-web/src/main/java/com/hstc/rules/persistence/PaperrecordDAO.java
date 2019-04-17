@@ -6,7 +6,7 @@ import com.hstc.rules.exception.PersistenceException;
 import java.util.List;
 
 /**
- * Created by linjingshan on 17-7-17.
+ * Created by linjingshan on 18-7-17.
  */
 public interface PaperrecordDAO {
 

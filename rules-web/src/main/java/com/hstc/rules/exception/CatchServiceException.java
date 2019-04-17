@@ -1,7 +1,7 @@
 package com.hstc.rules.exception;
 
 /**
- * Created by linjingshan on 17-6-8.
+ * Created by linjingshan on 18-6-8.
  */
 public class CatchServiceException extends RuntimeException {
     private ServiceException serviceException;

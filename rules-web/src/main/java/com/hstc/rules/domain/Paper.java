@@ -3,7 +3,7 @@ package com.hstc.rules.domain;
 import java.util.List;
 
 /**
- * Created by linjingshan on 17-7-17.
+ * Created by linjingshan on 18-7-17.
  */
 public class Paper {
 

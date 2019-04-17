@@ -12,7 +12,7 @@ import org.springframework.stereotype.Repository;
 import java.util.List;
 
 /**
- * Created by linjingshan on 17-7-4.
+ * Created by linjingshan on 18-7-4.
  */
 @Repository
 public class MajorDAOimpl extends AbstractDAO implements MajorDAO {

@@ -5,7 +5,7 @@ import javax.persistence.Id;
 import java.io.Serializable;
 
 /**
- * Created by linjingshan on 17-6-9.
+ * Created by linjingshan on 18-6-9.
  */
 public class IntegralPK implements Serializable {
     @Id

@@ -11,7 +11,7 @@ import static junit.framework.TestCase.assertEquals;
 import static junit.framework.TestCase.assertTrue;
 
 /**
- * Created by linjingshan on 17-5-30.
+ * Created by linjingshan on 18-5-30.
  */
 public class AccountDAOimplTest {
     private  AccountDAO accountDAO = new AccountDAOimpl();

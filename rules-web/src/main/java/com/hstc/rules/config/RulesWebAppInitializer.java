@@ -7,7 +7,7 @@ import javax.servlet.ServletRegistration;
 
 
 /**
- * Created by linjingshan on 17-6-4.
+ * Created by linjingshan on 18-6-4.
  */
 public class RulesWebAppInitializer extends AbstractAnnotationConfigDispatcherServletInitializer {
 

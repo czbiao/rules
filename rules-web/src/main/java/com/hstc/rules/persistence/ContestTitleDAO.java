@@ -5,7 +5,7 @@ import com.hstc.rules.domain.Testinfo;
 import com.hstc.rules.exception.PersistenceException;
 
 /**
- * Created by linjingshan on 17-7-2.
+ * Created by linjingshan on 18-7-2.
  */
 public interface ContestTitleDAO {
     /**

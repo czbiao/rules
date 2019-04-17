@@ -4,7 +4,7 @@ import javax.persistence.*;
 import java.io.Serializable;
 
 /**
- * Created by linjingshan on 17-6-9.
+ * Created by linjingshan on 18-6-9.
  */
 @Entity
 @Table(name = "choice", schema = "saverulessystem", catalog = "")

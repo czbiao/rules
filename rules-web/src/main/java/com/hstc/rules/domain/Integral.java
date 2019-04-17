@@ -3,7 +3,7 @@ package com.hstc.rules.domain;
 import javax.persistence.*;
 
 /**
- * Created by linjingshan on 17-6-9.
+ * Created by linjingshan on 18-6-9.
  */
 @Entity
 @Table(name = "integral", schema = "saverulessystem", catalog = "")

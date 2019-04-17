@@ -6,7 +6,7 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 /**
- * Created by linjingshan on 17-7-4.
+ * Created by linjingshan on 18-7-4.
  */
 @Entity
 @Table(name = "clazz", schema = "saverulessystem", catalog = "")

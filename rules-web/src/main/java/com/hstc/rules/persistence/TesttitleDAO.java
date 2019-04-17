@@ -8,7 +8,7 @@ import com.hstc.rules.exception.PersistenceException;
 import java.util.List;
 
 /**
- * Created by linjingshan on 17-7-2.
+ * Created by linjingshan on 18-7-2.
  */
 public interface TesttitleDAO {
     /**

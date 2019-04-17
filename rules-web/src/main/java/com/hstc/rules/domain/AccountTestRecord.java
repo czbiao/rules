@@ -1,7 +1,7 @@
 package com.hstc.rules.domain;
 
 /**
- * Created by linjingshan on 17-7-6.
+ * Created by linjingshan on 18-7-6.
  */
 public class AccountTestRecord {
     private long studentId;

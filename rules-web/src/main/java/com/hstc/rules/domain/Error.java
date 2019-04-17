@@ -1,7 +1,7 @@
 package com.hstc.rules.domain;
 
 /**
- * Created by linjingshan on 17-6-8.
+ * Created by linjingshan on 18-6-8.
  */
 public class Error {
     private int code;

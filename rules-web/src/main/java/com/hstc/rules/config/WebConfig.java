@@ -18,7 +18,7 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
 import java.io.IOException;
 
 /**
- * Created by linjingshan on 17-6-2.
+ * Created by linjingshan on 18-6-2.
  */
 @Configuration
 @EnableWebMvc

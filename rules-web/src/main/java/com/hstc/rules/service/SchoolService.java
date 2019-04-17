@@ -8,7 +8,7 @@ import com.hstc.rules.exception.SchoolServiceException;
 import java.util.List;
 
 /**
- * Created by linjingshan on 17-7-4.
+ * Created by linjingshan on 18-7-4.
  */
 public interface SchoolService {
     /**

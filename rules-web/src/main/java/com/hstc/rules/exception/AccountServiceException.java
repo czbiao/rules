@@ -1,7 +1,7 @@
 package com.hstc.rules.exception;
 
 /**
- * Created by linjingshan on 17-5-30.
+ * Created by linjingshan on 18-5-30.
  */
 public class AccountServiceException extends ServiceException{
     public AccountServiceException() {
