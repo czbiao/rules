@@ -1,4 +1,5 @@
 // login.js
+var util = require('../../utils/util.js')
 Page({
 
   /**
@@ -51,7 +52,7 @@ Page({
     json.studentId = that.data.account;
     json.password = that.data.password;
     wx.request({
-      url: 'http://127.0.0.1:8080/account/login',
+      url: util.getHost() + 'account/login',
       data: JSON.stringify(json),
       header: {
         'content-type': 'application/json;charset:utf-8',

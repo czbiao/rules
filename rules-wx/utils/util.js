@@ -1,3 +1,7 @@
+function getHost() {
+  return 'http://127.0.0.1:8080/';
+}
+
 function formatTime(date) {
   var year = date.getFullYear()
   var month = date.getMonth() + 1
@@ -103,4 +107,5 @@ module.exports = {
   timeDiff: timeDiff,
   getDiffMinute: getDiffMinute,
   formatNumber: formatNumber,
+  getHost: getHost,
 }

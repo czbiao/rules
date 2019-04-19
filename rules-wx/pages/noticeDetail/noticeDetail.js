@@ -17,7 +17,7 @@ Page({
     wx.showNavigationBarLoading();
     var noticeId = parseInt(options.noticeId);
     wx.request({
-      url: 'http://127.0.0.1:8080/notice/getNotice',
+      url: util.getHost() + 'notice/getNotice',
       data: { noticeId: noticeId },
       method: 'get',
       dataType: 'text',
@@ -25,8 +25,8 @@ Page({
         wx.hideNavigationBarLoading();
         var notice = that.parseNotice(JSON.parse(res.data));
         var pictureUrl = notice.picture;
-        if (pictureUrl!=undefined && (!pictureUrl.startsWith('http://127.0.0.1:8080/'))) {
-          pictureUrl = 'http://127.0.0.1:8080/' + pictureUrl;
+        if (pictureUrl!=undefined && (!pictureUrl.startsWith(util.getHost()))) {
+          pictureUrl = util.getHost() + pictureUrl;
         }
         notice.picture = pictureUrl;
         that.setData({

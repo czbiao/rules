@@ -28,7 +28,7 @@ Page({
     // 请求竞赛信息
     if (that.data.contestInfo.name == null) {
       wx.request({
-        url: 'http://127.0.0.1:8080/test/getContestInfo',
+        url: util.getHost() + 'test/getContestInfo',
         method: 'get',
         success: function (res) {
           res.data.startTime = util.getDateTime(new Date(res.data.startTime));
@@ -62,7 +62,7 @@ Page({
     json.testId = contestInfo.testId;
     // 判断是否可报名竞赛
     wx.request({
-      url: 'http://127.0.0.1:8080/test/getContestTime',
+      url: util.getHost() + 'test/getContestTime',
       data: JSON.stringify(json),
       header: {
         'content-type': 'application/json',
@@ -77,7 +77,7 @@ Page({
           json.testId = contestInfo.testId;
           // 判断用户是否已报名
           wx.request({
-            url: 'http://127.0.0.1:8080/test/isRegisted',
+            url: util.getHost() + 'test/isRegisted',
             data: JSON.stringify(json),
             header: {
               'content-type': 'application/json',
@@ -137,7 +137,7 @@ Page({
     json.studentId = studentId;
     json.testId = testId;
     wx.request({
-      url: 'http://127.0.0.1:8080/test/getContestStatus',
+      url: util.getHost() + 'test/getContestStatus',
       data: JSON.stringify(json),
       header: {
         'content-type': 'application/json',
@@ -211,7 +211,7 @@ Page({
     json.studentId = studentId;
     json.testId = testId;
     wx.request({
-      url: 'http://127.0.0.1:8080/test/registContest',
+      url: util.getHost() + 'test/registContest',
       data: JSON.stringify(json),
       header: {
         'content-type': 'application/json',
@@ -260,7 +260,7 @@ Page({
     json.testId = testId;
     wx.showNavigationBarLoading();
     wx.request({
-      url: 'http://127.0.0.1:8080/test/testRecordInfo',
+      url: util.getHost() + 'test/testRecordInfo',
       data: JSON.stringify(json),
       header: {
         'content-type': 'application/json',

@@ -33,7 +33,7 @@ Page({
     var titlePage = wx.getStorageSync('titlePage'+titleType) || 1;
     wx.showNavigationBarLoading();
     wx.request({
-      url: 'http://127.0.0.1:8080/title/practice',
+      url: util.getHost() + 'title/practice',
       data: {
         page: titlePage,
         count: 10,
@@ -158,10 +158,10 @@ Page({
     if(index >= that.data.size - 1) {
       var isFinish = that.checkAnswer(that.data.answer, that.data.size);
       if(isFinish||that.data.titleType!=0) {
-        var url = 'http://127.0.0.1:8080/learn/upClock';
+        var url = util.getHost() + 'learn/upClock';
         var content = '您已学习完本组题目是否提交？';
         if (that.data.titleType == 0) {
-          url = 'http://127.0.0.1:8080/title/submit';
+          url = util.getHost() + 'title/submit';
           content = '您已做完该组所有题目是否提交？'
         }
         wx.showModal({

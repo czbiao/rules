@@ -31,7 +31,7 @@ Page({
     json.comment = that.data.comment;
     json.clockDay = util.formatTime(new Date());
     wx.request({
-      url: 'http://127.0.0.1:8080/learn/clock',
+      url: util.getHost() + 'learn/clock',
       data: JSON.stringify(json),
       header: { 'content-type': 'application/json;charset:utf-8',},
       method: 'post',
@@ -62,7 +62,7 @@ Page({
     // json.college = null;
     // json.school = null;
     // wx.request({
-    //   url: 'http://127.0.0.1:8080/learn/clockList',
+    //   url: util.getHost() + 'learn/clockList',
     //   data: JSON.stringify(json),
     //   header: { 'Content-Type': 'application/json;charset:utf-8',},
     //   method: 'POST',

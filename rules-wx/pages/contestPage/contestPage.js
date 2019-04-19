@@ -39,7 +39,7 @@ Page({
     json.startTime = util.formatTime(new Date());
     // 请求试题
     wx.request({
-      url: 'http://127.0.0.1:8080/test/startContest',
+      url: util.getHost() + 'test/startContest',
       data: JSON.stringify(json),
       header: {
         'content-type': 'application/json',
@@ -68,7 +68,7 @@ Page({
         })
         // 请求testInfo获取时间，启动计时器
         wx.request({
-          url: 'http://127.0.0.1:8080/test/testRecordInfo',
+          url: util.getHost() + 'test/testRecordInfo',
           data: JSON.stringify(json),
           header: {
             'content-type': 'application/json',
@@ -209,7 +209,7 @@ Page({
             data.submitPaper = submitPaper;
             wx.showNavigationBarLoading();
             wx.request({
-              url: 'http://127.0.0.1:8080/test/submitTest',
+              url: util.getHost() + 'test/submitTest',
               data: JSON.stringify(data),
               header: {
                 'content-type': 'application/json',
@@ -390,7 +390,7 @@ Page({
           wx.showNavigationBarLoading();
           var testRecord = that.data.testRecord;
           wx.request({
-            url: 'http://127.0.0.1:8080/test/deleteTestRecord',
+            url: util.getHost() + 'test/deleteTestRecord',
             data: testRecord,
             header: {
               'content-type': 'application/json',

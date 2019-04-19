@@ -116,7 +116,7 @@ Page({
   getTextNotice: function () {
     var that = this;
     wx.request({
-      url: 'http://127.0.0.1:8080/notice/getAllTextNotice',
+      url: util.getHost() + 'notice/getAllTextNotice',
       method: 'get',
       dataType: 'text',
       success: function(res) {
@@ -140,17 +140,17 @@ Page({
   getPictureNotice: function () {
     var that = this;
     wx.request({
-      url: 'http://127.0.0.1:8080/notice/getPictureNotice',
+      url: util.getHost() + 'notice/getPictureNotice',
       method: 'get',
       dataType: 'text',
       success: function(res) {
         var pictureNoticeList = JSON.parse(res.data);
         for (var i = 0;i < pictureNoticeList.length;i++) {
           var pictureUrl = pictureNoticeList[i].picture;
-          if (pictureUrl.startsWith('http://127.0.0.1:8080/')) {
+          if (pictureUrl.startsWith(util.getHost())) {
             return;
           }
-          pictureUrl = 'http://127.0.0.1:8080/' + pictureUrl;
+          pictureUrl = util.getHost() + pictureUrl;
           pictureNoticeList[i].picture = pictureUrl;
         }
         that.setData({

@@ -1,4 +1,5 @@
 // exercisePage.js
+var util = require('../../utils/util.js')
 Page({
 
   /**
@@ -33,7 +34,7 @@ Page({
 
     wx.showNavigationBarLoading();
     wx.request({
-      url: 'http://127.0.0.1:8080/title/wrongList',
+      url: util.getHost() + 'title/wrongList',
       data: JSON.stringify(json),
       header: {
         'content-type': 'application/json',
@@ -113,7 +114,7 @@ Page({
                 'titleList': data,
               }));
               wx.request({
-                url: 'http://127.0.0.1:8080/title/submit',
+                url: util.getHost() + 'title/submit',
                 data: JSON.stringify({
                   'account': {
                     'studentId': 3903150326,

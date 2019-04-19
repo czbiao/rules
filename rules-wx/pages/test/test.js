@@ -19,7 +19,7 @@ Page({
     // 请求考试信息
     if (that.data.testInfo.name == null) {
       wx.request({
-        url: 'http://127.0.0.1:8080/test/getTestInfo',
+        url: util.getHost() + 'test/getTestInfo',
         method: 'get',
         success: function (res) {
           res.data.startTime = util.getDateTime(new Date(res.data.startTime));
@@ -72,7 +72,7 @@ Page({
     json.testId = testInfo.testId;
     console.log(JSON.stringify(json));
     wx.request({
-      url: 'http://127.0.0.1:8080/test/testRecordInfo',
+      url: util.getHost() + 'test/testRecordInfo',
       data: JSON.stringify(json),
       header: {
         'content-type': 'application/json',
