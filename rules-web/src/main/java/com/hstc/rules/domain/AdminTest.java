@@ -1,7 +1,7 @@
 package com.hstc.rules.domain;
 
 /**
- * Created by linjingshan on 2017/8/17.
+ * Created by linjingshan on 2018/8/17.
  */
 public class AdminTest {
     private int testId;

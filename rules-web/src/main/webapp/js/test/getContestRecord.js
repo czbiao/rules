@@ -1,5 +1,5 @@
 /**
- * Created by linjingshan on 2017/6/25.
+ * Created by linjingshan on 2018/6/25.
  */
 var contest_start_time;
 var contest_submit_time;

@@ -3,7 +3,7 @@ package com.hstc.rules.domain;
 import java.util.List;
 
 /**
- * Created by linjingshan on 2017/7/20.
+ * Created by linjingshan on 2018/7/20.
  */
 public class SubmitPaper {
     private List<Title> titleList;  // 选择题列表

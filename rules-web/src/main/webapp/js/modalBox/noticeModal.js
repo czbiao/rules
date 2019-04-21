@@ -1,5 +1,5 @@
 /**
- * Created by linjingshan on 2017/6/26.
+ * Created by linjingshan on 2018/6/26.
  */
 function getNotice(noticeId) {
     if (this.noticeId != noticeId) {

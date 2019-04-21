@@ -6,7 +6,7 @@ import java.util.zip.ZipEntry;
 import java.util.zip.ZipOutputStream;
 
 /**
- * Created by linjingshan on 2017/10/16.
+ * Created by linjingshan on 2018/10/16.
  */
 public class IOUtil {
 

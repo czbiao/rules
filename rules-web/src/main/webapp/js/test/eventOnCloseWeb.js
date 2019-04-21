@@ -1,5 +1,5 @@
 /**
- * Created by linjingshan on 2017/6/29.
+ * Created by linjingshan on 2018/6/29.
  */
 $(function () {
         if(getCookie('signon')!=undefined) {

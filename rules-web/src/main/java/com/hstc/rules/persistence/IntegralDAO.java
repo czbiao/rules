@@ -5,7 +5,7 @@ import com.hstc.rules.domain.Integral;
 import com.hstc.rules.exception.PersistenceException;
 
 /**
- * Created by linjingshan on 2017/6/10.
+ * Created by linjingshan on 2018/6/10.
  */
 public interface IntegralDAO {
     /**

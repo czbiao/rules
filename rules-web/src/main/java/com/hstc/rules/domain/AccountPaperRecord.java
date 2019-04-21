@@ -1,7 +1,7 @@
 package com.hstc.rules.domain;
 
 /**
- * Created by linjingshan on 2017/7/20.
+ * Created by linjingshan on 2018/7/20.
  */
 public class AccountPaperRecord {
     private Account account;

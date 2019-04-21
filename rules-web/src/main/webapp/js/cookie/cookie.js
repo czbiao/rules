@@ -1,5 +1,5 @@
 ﻿/**
- * Created by linjingshan on 2017/7/1.
+ * Created by linjingshan on 2018/7/1.
  */
 // 其它地方肯定也用到了setCookie所以我要改这个函数，两个变量
 function setCookie(name, value) {

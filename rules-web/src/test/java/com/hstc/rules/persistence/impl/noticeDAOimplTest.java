@@ -11,7 +11,7 @@ import static org.junit.Assert.assertTrue;
 import static org.junit.Assert.assertEquals;
 
 /**
- * Created by linjingshan on 2017/6/10.
+ * Created by linjingshan on 2018/6/10.
  */
 public class noticeDAOimplTest {
 

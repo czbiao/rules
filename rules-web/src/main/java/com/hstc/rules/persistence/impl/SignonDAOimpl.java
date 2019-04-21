@@ -13,7 +13,7 @@ import org.springframework.stereotype.Repository;
 import java.util.List;
 
 /**
- * Created by linjingshan on 2017/6/10.
+ * Created by linjingshan on 2018/6/10.
  */
 @Repository
 public class SignonDAOimpl extends AbstractDAO implements SignonDAO {

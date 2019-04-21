@@ -15,7 +15,7 @@ import org.springframework.stereotype.Repository;
 import java.util.List;
 
 /**
- * Created by linjingshan on 2017/6/8.
+ * Created by linjingshan on 2018/6/8.
  */
 @Repository
 public class ContestTestDAOimpl extends AbstractDAO implements ContestTestDAO {

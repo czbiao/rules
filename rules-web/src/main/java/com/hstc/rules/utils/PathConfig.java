@@ -1,7 +1,7 @@
 package com.hstc.rules.utils;
 
 /**
- * Created by linjingshan on 2017/10/8.
+ * Created by linjingshan on 2018/10/8.
  */
 public class PathConfig {
     private static String path;

@@ -1,7 +1,7 @@
 package com.hstc.rules.pretreament;
 
 /**
- * Created by 51157 on 2017/7/21.
+ * Created by 51157 on 2018/7/21.
  */
 public class Completion {
     StringBuilder content;

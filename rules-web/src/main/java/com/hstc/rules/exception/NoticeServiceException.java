@@ -1,7 +1,7 @@
 package com.hstc.rules.exception;
 
 /**
- * Created by linjingshan on 2017/6/10.
+ * Created by linjingshan on 2018/6/10.
  */
 public class NoticeServiceException extends ServiceException{
     public NoticeServiceException() {
