@@ -14,7 +14,7 @@ import org.springframework.stereotype.Repository;
 import java.util.List;
 
 /**
- * Created by CMM on 2017/6/10.
+ * Created by linjingshan on 2017/6/10.
  */
 @Repository
 public class AdminDAOimpl extends AbstractDAO implements AdminDAO {

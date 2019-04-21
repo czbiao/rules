@@ -5,7 +5,7 @@ import java.io.Serializable;
 import java.sql.Timestamp;
 
 /**
- * Created by CMM on 2017/6/9.
+ * Created by linjingshan on 2017/6/9.
  */
 @Entity
 @Table(name = "testrecord", schema = "saverulessystem", catalog = "")

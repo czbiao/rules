@@ -11,7 +11,7 @@ import static junit.framework.TestCase.assertEquals;
 import static junit.framework.TestCase.assertTrue;
 
 /**
- * Created by CMM on 2017/6/10.
+ * Created by linjingshan on 2017/6/10.
  */
 public class WrongtitleDAOimplTest {
     private WrongtitleDAO wrongtitleDAO = new WrongtitleDAOimpl();

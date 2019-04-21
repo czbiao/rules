@@ -1,5 +1,5 @@
 /**
- * Created by CMM on 2017/6/21.
+ * Created by linjingshan on 2017/6/21.
  */
 var account = null;
 var personalPopFlag = false;

@@ -7,7 +7,7 @@ import org.junit.Test;
 
 import static junit.framework.TestCase.assertEquals;
 /**
- * Created by CMM on 2017/6/10.
+ * Created by linjingshan on 2017/6/10.
  */
 public class AdminDAOimplTest {
     private AdminDAO adminDAO = new AdminDAOimpl();
