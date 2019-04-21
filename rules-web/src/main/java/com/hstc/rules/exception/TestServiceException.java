@@ -1,7 +1,7 @@
 package com.hstc.rules.exception;
 
 /**
- * Created by GF on 2017/6/10.
+ * Created by linjingshan on 2017/6/10.
  */
 public class TestServiceException extends ServiceException{
     public TestServiceException() {

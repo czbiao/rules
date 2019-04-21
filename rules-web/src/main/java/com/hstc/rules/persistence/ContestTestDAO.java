@@ -9,7 +9,7 @@ import com.hstc.rules.exception.PersistenceException;
 import java.util.List;
 
 /**
- * Created by GF on 2017/6/8.
+ * Created by linjingshan on 2017/6/8.
  */
 // 我要设置只能考一次就说明要在这里进行操作了
 public interface ContestTestDAO {

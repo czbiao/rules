@@ -1,7 +1,7 @@
 package com.hstc.rules.domain;
 
 /**
- * Created by GF on 2017/8/17.
+ * Created by linjingshan on 2017/8/17.
  */
 public class CorrectPaper {
     private Long studentId;

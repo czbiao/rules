@@ -12,7 +12,7 @@ import org.springframework.stereotype.Repository;
 import java.util.List;
 
 /**
- * Created by GF on 2017/6/10.
+ * Created by linjingshan on 2017/6/10.
  */
 @Repository
 public class TestDAOimpl extends AbstractDAO implements TestDAO{

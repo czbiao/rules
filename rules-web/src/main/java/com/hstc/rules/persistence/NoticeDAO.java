@@ -6,7 +6,7 @@ import com.hstc.rules.exception.PersistenceException;
 import java.util.List;
 
 /**
- * Created by GF on 2017/6/10.
+ * Created by linjingshan on 2017/6/10.
  */
 public interface NoticeDAO {
     /**

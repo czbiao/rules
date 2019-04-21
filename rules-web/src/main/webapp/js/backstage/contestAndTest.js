@@ -1,5 +1,5 @@
 /**
- * Created by GF on 2017/7/3.
+ * Created by linjingshan on 2017/7/3.
  */
 //模态框居中
 function contestOperateModal() {

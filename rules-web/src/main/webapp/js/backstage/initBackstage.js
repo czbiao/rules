@@ -1,5 +1,5 @@
 /**
- * Created by GF on 2017/7/3.
+ * Created by linjingshan on 2017/7/3.
  */
 function initBackstage(name) {
     switch (name) {

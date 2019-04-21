@@ -1,5 +1,5 @@
 /**
- * Created by GF on 2017/8/3.
+ * Created by linjingshan on 2017/8/3.
  */
 function insertAdminAjax(account,password,username,role,rolerange) {
 

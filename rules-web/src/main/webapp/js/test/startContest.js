@@ -1,5 +1,5 @@
 ﻿/**
- * Created by GF on 2017/7/2.
+ * Created by linjingshan on 2017/7/2.
  */
 // 题目组
 var contestTitleList;

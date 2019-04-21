@@ -1,5 +1,5 @@
 /**
- * Created by GF on 2017/8/17.
+ * Created by linjingshan on 2017/8/17.
  */
 var accountPaperRecord;
 //Sunss 这里就是实现不用批改的逻辑的地方了

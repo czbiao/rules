@@ -1,5 +1,5 @@
 /**
- * Created by GF on 2017/6/24.
+ * Created by linjingshan on 2017/6/24.
  */
 function changeStatus() {
     var testId = getContestId();

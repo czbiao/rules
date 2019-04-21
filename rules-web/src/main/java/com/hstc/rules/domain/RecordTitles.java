@@ -1,7 +1,7 @@
 package com.hstc.rules.domain;
 
 /**
- * Created by GF on 2017/6/25.
+ * Created by linjingshan on 2017/6/25.
  */
 public class RecordTitles {
     private Testrecord testrecord;

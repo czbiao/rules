@@ -23,7 +23,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by GF on 2017/6/12.
+ * Created by linjingshan on 2017/6/12.
  */
 @Controller
 @RequestMapping(value = {"/test"})
