@@ -100,7 +100,7 @@ function deleteNotice(obj) {
 }
 
 /**
- * Date:2017-08-01 18:46:30
+ * Date:2018-08-01 18:46:30
  * Anthor：linjingshan
  */
 function publishNotice() {

@@ -36,7 +36,7 @@ public class LearnActionBeanTest {
         Clockin clockin = new Clockin();
         clockin.setStudentId(3903150326l);
         clockin.setComment("打卡");
-        clockin.setClockDay(Timestamp.valueOf("2017-06-11 16:48:38"));
+        clockin.setClockDay(Timestamp.valueOf("2018-06-11 16:48:38"));
         clockin.setTitleNum(15);
         clockin.setDuration(5);
         MockMvc mockMvc = standaloneSetup(learnActionBean).build();
@@ -75,7 +75,7 @@ public class LearnActionBeanTest {
     public void testClockDetail() throws Exception {
         MockMvc mockMvc = standaloneSetup(learnActionBean).build();
 
-        mockMvc.perform(get("/learn/clockDetail?studentId=3903150326&username=李涛江&datetime=2017-06-12 16:48:38")
+        mockMvc.perform(get("/learn/clockDetail?studentId=3903150326&username=李涛江&datetime=2018-06-12 16:48:38")
                 .characterEncoding("UTF-8"))
                 .andDo(print())
                 .andExpect(status().isOk());

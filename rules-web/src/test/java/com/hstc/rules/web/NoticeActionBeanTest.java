@@ -33,7 +33,7 @@ public class NoticeActionBeanTest {
         Notice notice = new Notice();
         notice.setTitle("123");
         notice.setContent("123");
-        notice.setSubmitTime(Timestamp.valueOf("2017-06-12 12:39:10"));
+        notice.setSubmitTime(Timestamp.valueOf("2018-06-12 12:39:10"));
         notice.setType(0);
         String requestJson = ow.writeValueAsString(notice);
         MockMvc mockMvc = standaloneSetup(noticeActionBean).build();
