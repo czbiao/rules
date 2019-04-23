@@ -31,3 +31,5 @@ RedisDesktopManager 管理redis 0.9.9
 2. 创建数据库名schoolrulessystem，导入/resources/schoolrulessystem.sql生成表结构，再导入/resources/load_data.sql数据
 3. /resource/hibernate.cfg.xml 修改mysql的账户密码
 4. /resource/redis.properties 修改redis账户密码
+5. 打开pom.xml加载环境依赖
+6. 部署tomcat，运行项目
