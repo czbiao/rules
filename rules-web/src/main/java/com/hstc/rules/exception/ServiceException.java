@@ -1,7 +1,7 @@
 package com.hstc.rules.exception;
 
 /**
- * Created by linjingshan on 18-5-30.
+ * Created by linjingshan on 2018-5-30.
  */
 public abstract class ServiceException extends Exception {
     // 异常码

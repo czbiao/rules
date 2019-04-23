@@ -13,7 +13,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by linjingshan on 18-5-30.
+ * Created by linjingshan on 2018-5-30.
  */
 @Repository
 public class AccountDAOimpl extends AbstractDAO implements AccountDAO {

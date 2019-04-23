@@ -5,7 +5,7 @@ import javax.persistence.Id;
 import java.io.Serializable;
 
 /**
- * Created by linjingshan on 18-7-2.
+ * Created by linjingshan on 2018-7-2.
  */
 public class TesttitlePK implements Serializable {
     @Id

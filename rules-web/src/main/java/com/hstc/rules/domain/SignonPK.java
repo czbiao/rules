@@ -5,7 +5,7 @@ import javax.persistence.Id;
 import java.io.Serializable;
 
 /**
- * Created by linjingshan on 18-6-8.
+ * Created by linjingshan on 2018-6-8.
  */
 public class SignonPK implements Serializable {
     @Id

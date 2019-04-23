@@ -1,7 +1,7 @@
 package com.hstc.rules.exception;
 
 /**
- * Created by linjingshan on 18-7-4.
+ * Created by linjingshan on 2018-7-4.
  */
 public class SchoolServiceException extends ServiceException {
     public SchoolServiceException() {

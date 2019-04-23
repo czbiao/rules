@@ -1,7 +1,7 @@
 package com.hstc.rules.exception;
 
 /**
- * Created by linjingshan on 18-6-10.
+ * Created by linjingshan on 2018-6-10.
  */
 public class LearnServiceException extends ServiceException {
     public LearnServiceException() {

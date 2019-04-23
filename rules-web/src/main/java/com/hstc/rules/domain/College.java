@@ -7,7 +7,7 @@ import javax.persistence.Table;
 import java.io.Serializable;
 
 /**
- * Created by linjingshan on 18-7-4.
+ * Created by linjingshan on 2018-7-4.
  */
 @Entity
 @Table(name = "college", schema = "saverulessystem", catalog = "")

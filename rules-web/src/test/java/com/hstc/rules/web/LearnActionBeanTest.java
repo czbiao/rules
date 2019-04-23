@@ -21,7 +21,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 import static org.springframework.test.web.servlet.setup.MockMvcBuilders.standaloneSetup;
 
 /**
- * Created by linjingshan on 18-6-12.
+ * Created by linjingshan on 2018-6-12.
  */
 public class LearnActionBeanTest {
     private ClockDAO clockDAO = new ClockDAOimpl();

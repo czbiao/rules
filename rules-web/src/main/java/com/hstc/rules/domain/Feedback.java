@@ -8,7 +8,7 @@ import java.io.Serializable;
 import java.sql.Timestamp;
 
 /**
- * Created by linjingshan on 18-7-2.
+ * Created by linjingshan on 2018-7-2.
  */
 @Entity
 @Table(name = "feedback", schema = "saverulessystem", catalog = "")

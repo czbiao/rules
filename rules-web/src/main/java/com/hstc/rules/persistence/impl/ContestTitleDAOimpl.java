@@ -11,7 +11,7 @@ import org.hibernate.Transaction;
 import org.springframework.stereotype.Repository;
 
 /**
- * Created by linjingshan on 18-7-2.
+ * Created by linjingshan on 2018-7-2.
  */
 @Repository
 public class ContestTitleDAOimpl extends AbstractDAO implements ContestTitleDAO {

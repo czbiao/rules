@@ -6,7 +6,7 @@ import com.hstc.rules.exception.PersistenceException;
 import java.util.List;
 
 /**
- * Created by linjingshan on 18-5-30.
+ * Created by linjingshan on 2018-5-30.
  */
 public interface AccountDAO {
 

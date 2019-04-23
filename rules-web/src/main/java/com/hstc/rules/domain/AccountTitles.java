@@ -3,7 +3,7 @@ package com.hstc.rules.domain;
 import java.util.List;
 
 /**
- * Created by linjingshan on 18-6-12.
+ * Created by linjingshan on 2018-6-12.
  */
 public class AccountTitles {
     private Account account;

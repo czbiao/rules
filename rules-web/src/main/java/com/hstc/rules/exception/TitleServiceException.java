@@ -1,7 +1,7 @@
 package com.hstc.rules.exception;
 
 /**
- * Created by linjingshan on 18-6-11.
+ * Created by linjingshan on 2018-6-11.
  */
 public class TitleServiceException extends ServiceException {
 
