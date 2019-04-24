@@ -1,12 +1,14 @@
 use schoolrulessystem;
 
 ### userinfo ###
+INSERT INTO userinfo VALUES(2015117018, '林静珊', 1, '信息管理与信息系统（金融信息管理）', 2015, '信息管理与信息系统', '计算机与信息工程学院');
 INSERT INTO userinfo VALUES(3903150332, '葛凡', 1, '工程试验班1503', 2015, '软件工程', '软件学院');
 INSERT INTO userinfo VALUES(3903150326, '李涛江', 1, '工程试验班1503', 2015, '软件工程', '软件学院');
 INSERT INTO userinfo VALUES(3903150327, '陈铭明', 1,'工程试验班1503', 2015, '软件工程', '软件学院');
 INSERT INTO userinfo VALUES(3901170505, '孙佳程', 1,'软件1705', 2017, '软件工程', '软件学院');
 
 ### signon ###
+INSERT INTO signon VALUES(2015117018, 2015117018);
 INSERT INTO signon VALUES(3903150326, 3903150326);
 INSERT INTO signon VALUES(3903150332, 3903150332);
 INSERT INTO signon VALUES(3903150327, 3903150327);
