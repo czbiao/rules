@@ -19,6 +19,7 @@ import java.util.List;
  */
 @Repository
 public class NoticeDAOimpl extends AbstractDAO implements NoticeDAO{
+    // 添加通知
     public void insertNotice(Notice notice) throws PersistenceException {
             Session session = HibernateUtil.getSession();
         Transaction transaction = getTransation(session);
@@ -34,6 +35,7 @@ public class NoticeDAOimpl extends AbstractDAO implements NoticeDAO{
         }
     }
 
+    // 查看通知
     public Notice getNotice(int noticeId) throws PersistenceException{
             Session session = HibernateUtil.getSession();
         Transaction transaction = getTransation(session);

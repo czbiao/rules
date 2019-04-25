@@ -723,7 +723,8 @@ public class TestActionBean extends AbstractActionBean {
             testrecord.setTestId(correctPaper.getTestId());
             Testrecord testrecord1=testService.getTestRecord(testrecord);
             //更新paperrecord
-            Paperrecord paperrecord=testService.getPaperrecordByStudentIdAndTestId(correctPaper.getStudentId(),correctPaper.getTestId());
+            Paperrecord paperrecord=testService.getPaperrecordByStudentIdAndTestId(correctPaper.getStudentId(),
+                    correctPaper.getTestId());
             paperrecord.setIsCorrected(1);
             paperrecord.setSubmitTime(new Timestamp(System.currentTimeMillis()));
 //            int score=correctPaper.getScore()+paperrecord.getBlankScore();
