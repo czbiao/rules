@@ -33,3 +33,6 @@ RedisDesktopManager 管理redis 0.9.9
 4. /resource/redis.properties 修改redis账户密码
 5. 打开pom.xml加载环境依赖
 6. 部署tomcat，运行项目
+运行如果提示缺失 javax.servlet 寻找tomcat中的lib/servlet-api.jar包，导入到libraries中
+
+
