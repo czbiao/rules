@@ -13,7 +13,7 @@
 		"checkInvalidKey": true
 	},
 	"compileType": "miniprogram",
-	"libVersion": "2.6.1",
+	"libVersion": "2.6.6",
 	"appid": "wxda2c86187aaa8acb",
 	"projectname": "rules-lp-master",
 	"debugOptions": {

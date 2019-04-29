@@ -1,4 +1,5 @@
 function getHost() {
+  // admin host
   return 'http://127.0.0.1:8080/';
 }
 
